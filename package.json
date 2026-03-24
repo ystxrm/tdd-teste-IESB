@@ -1,0 +1,28 @@
+{
+  "name": "tdd-teste-iesb",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui":"vitest--ui",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ystxrm/tdd-teste-IESB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ystxrm/tdd-teste-IESB/issues"
+  },
+  "homepage": "https://github.com/ystxrm/tdd-teste-IESB#readme",
+  "devDependencies": {
+    "@vitest/ui": "^4.1.1",
+    "vitest": "^4.1.1"
+  }
+}
